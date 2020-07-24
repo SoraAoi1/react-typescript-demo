@@ -1,8 +1,9 @@
 import React from 'react'
-import loginProps from './login.interface'
+import LoginProps from './login.interface'
+import { Button } from 'antd'
 import './login.less'
 export default class Login extends React.Component {
-  constructor(props: loginProps) {
+  constructor(props: LoginProps) {
     super(props)
     this.state = {
 
@@ -10,7 +11,9 @@ export default class Login extends React.Component {
   }
   render() {
     return (
-      <div className="main-page-login">login</div>
+      <div className="main-page-login fl">
+        login
+      </div>
     )
   }
 }

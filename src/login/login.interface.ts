@@ -1,4 +1,4 @@
-export default interface loginProps {
+export default interface LoginProps {
   name: String,
   value: Number,
   age: Number
