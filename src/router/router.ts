@@ -7,7 +7,7 @@ const RouterList = [
     key: 'login',
   },
   {
-    path: '/mainPage',
+    path: '*',
     component: MainPage,
     key: 'MainPage'
   }

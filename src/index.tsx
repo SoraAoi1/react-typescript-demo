@@ -17,7 +17,7 @@ ReactDOM.render(
   <Router>
     <Switch>
       {renderRouter(RouterList)}
-      <Redirect to="/login"></Redirect>
+      <Redirect to="*"></Redirect>
     </Switch>
   </Router>,
   document.getElementById('root')

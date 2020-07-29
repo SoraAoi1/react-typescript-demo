@@ -1,6 +1,6 @@
 import React from 'react'
 import LoginProps from './login.interface'
-import { Button } from 'antd'
+// import { Button } from 'antd'
 import './login.less'
 export default class Login extends React.Component {
   constructor(props: LoginProps) {

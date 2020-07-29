@@ -4,6 +4,20 @@
 .fr {
   float: right;
 }
+.clear:after {
+  content: "";
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  display: block;
+  visibility: hidden;
+}
 .flex {
   display: flex;
+}
+#root {
+  height: 100%;
+}
+.cp {
+  cursor: pointer;
 }
